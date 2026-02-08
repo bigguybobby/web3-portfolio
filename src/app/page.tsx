@@ -840,6 +840,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Ballot",
+    emoji: "🗳️",
+    tagline: "Merkle-Proof Weighted Voting",
+    grant: "Governance",
+    color: "from-indigo-400 to-blue-400",
+    border: "border-indigo-500/30 hover:border-indigo-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "100%",
+    features: ["Merkle-proof eligibility", "Weighted votes", "Quorum enforcement", "For/Against/Abstain", "Updatable voter set"],
+    github: "https://github.com/bigguybobby/ballot",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -856,10 +870,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "61", icon: "📦" },
-  { label: "Tests Passing", value: "1509", icon: "✅" },
-  { label: "Contracts", value: "60", icon: "📜" },
-  { label: "GitHub Repos", value: "63", icon: "🔗" },
+  { label: "Projects", value: "62", icon: "📦" },
+  { label: "Tests Passing", value: "1531", icon: "✅" },
+  { label: "Contracts", value: "61", icon: "📜" },
+  { label: "GitHub Repos", value: "64", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
