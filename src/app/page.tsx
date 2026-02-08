@@ -476,6 +476,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Oracle",
+    emoji: "🔮",
+    tagline: "Multi-Reporter Price Feed",
+    grant: "DeFi Infrastructure",
+    color: "from-violet-400 to-purple-400",
+    border: "border-violet-500/30 hover:border-violet-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 26, coverage: "100%",
+    features: ["Multi-reporter consensus", "Heartbeat staleness", "Deviation threshold", "Round-based updates", "Reporter management"],
+    github: "https://github.com/bigguybobby/oracle",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -492,10 +506,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "35", icon: "📦" },
-  { label: "Tests Passing", value: "889", icon: "✅" },
-  { label: "Contracts", value: "34", icon: "📜" },
-  { label: "GitHub Repos", value: "37", icon: "🔗" },
+  { label: "Projects", value: "36", icon: "📦" },
+  { label: "Tests Passing", value: "915", icon: "✅" },
+  { label: "Contracts", value: "35", icon: "📜" },
+  { label: "GitHub Repos", value: "38", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
