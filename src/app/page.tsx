@@ -658,6 +658,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "CrossChainBridge",
+    emoji: "🌉",
+    tagline: "Lock-and-Mint Cross-Chain Bridge",
+    grant: "Cross-Chain Infrastructure",
+    color: "from-indigo-400 to-blue-400",
+    border: "border-indigo-500/30 hover:border-indigo-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 23, coverage: "100%",
+    features: ["Lock & mint", "Multi-relayer quorum", "Nonce replay protection", "Release flow", "Pausable"],
+    github: "https://github.com/bigguybobby/cross-chain-bridge",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -674,10 +688,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "48", icon: "📦" },
-  { label: "Tests Passing", value: "1205", icon: "✅" },
-  { label: "Contracts", value: "47", icon: "📜" },
-  { label: "GitHub Repos", value: "50", icon: "🔗" },
+  { label: "Projects", value: "49", icon: "📦" },
+  { label: "Tests Passing", value: "1228", icon: "✅" },
+  { label: "Contracts", value: "48", icon: "📜" },
+  { label: "GitHub Repos", value: "51", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
