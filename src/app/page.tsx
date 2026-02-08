@@ -826,6 +826,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "GaslessRelay",
+    emoji: "⛽",
+    tagline: "ERC-2771 Meta-Transaction Forwarder",
+    grant: "UX Infrastructure",
+    color: "from-lime-400 to-green-400",
+    border: "border-lime-500/30 hover:border-lime-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 18, coverage: "100%",
+    features: ["EIP-712 signatures", "ERC-2771 compatible", "Replay protection", "Batch relay", "Relayer whitelist"],
+    github: "https://github.com/bigguybobby/gasless-relay",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -842,10 +856,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "60", icon: "📦" },
-  { label: "Tests Passing", value: "1491", icon: "✅" },
-  { label: "Contracts", value: "59", icon: "📜" },
-  { label: "GitHub Repos", value: "62", icon: "🔗" },
+  { label: "Projects", value: "61", icon: "📦" },
+  { label: "Tests Passing", value: "1509", icon: "✅" },
+  { label: "Contracts", value: "60", icon: "📜" },
+  { label: "GitHub Repos", value: "63", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
