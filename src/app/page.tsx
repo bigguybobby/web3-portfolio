@@ -252,6 +252,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "PaymentStream",
+    emoji: "💰",
+    tagline: "Per-Second Token Streaming",
+    grant: "Payroll & Grants Infrastructure",
+    color: "from-teal-400 to-emerald-400",
+    border: "border-teal-500/30 hover:border-teal-500/60",
+    contract: "0x6Fb0288dCeE156De49AC632765AdC0Be66071288",
+    chain: "Celo Sepolia",
+    tests: 23, coverage: "100%",
+    features: ["Linear per-second streaming", "Incremental withdrawals", "Sender cancel with fair split", "Multi-stream support", "Real-time balance queries"],
+    github: "https://github.com/bigguybobby/payment-stream",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -268,10 +282,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "19", icon: "📦" },
-  { label: "Tests Passing", value: "587", icon: "✅" },
-  { label: "Contracts", value: "18", icon: "📜" },
-  { label: "GitHub Repos", value: "21", icon: "🔗" },
+  { label: "Projects", value: "20", icon: "📦" },
+  { label: "Tests Passing", value: "610", icon: "✅" },
+  { label: "Contracts", value: "19", icon: "📜" },
+  { label: "GitHub Repos", value: "22", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
