@@ -756,6 +756,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "DCAModule",
+    emoji: "⏰",
+    tagline: "Automated Dollar-Cost Averaging",
+    grant: "DeFi Automation",
+    color: "from-amber-400 to-orange-400",
+    border: "border-amber-500/30 hover:border-amber-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 21, coverage: "100%",
+    features: ["Recurring buy orders", "Keeper-executed", "Pause/Resume", "Protocol fee", "Unlimited or fixed runs"],
+    github: "https://github.com/bigguybobby/dca-module",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -772,10 +786,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "55", icon: "📦" },
-  { label: "Tests Passing", value: "1373", icon: "✅" },
-  { label: "Contracts", value: "54", icon: "📜" },
-  { label: "GitHub Repos", value: "57", icon: "🔗" },
+  { label: "Projects", value: "56", icon: "📦" },
+  { label: "Tests Passing", value: "1394", icon: "✅" },
+  { label: "Contracts", value: "55", icon: "📜" },
+  { label: "GitHub Repos", value: "58", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
