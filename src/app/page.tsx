@@ -112,6 +112,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Timelock",
+    emoji: "⏰",
+    tagline: "Governance Timelock Controller",
+    grant: "DAO & Governance Infrastructure",
+    color: "from-indigo-400 to-blue-400",
+    border: "border-indigo-500/30 hover:border-indigo-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 45, coverage: "100%",
+    features: ["Queue/execute/cancel with configurable delay", "Proposer/executor role separation", "Grace period (14d expiry)", "Self-governance via timelock calls", "Pairs with MultiSig"],
+    github: "https://github.com/bigguybobby/timelock",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -128,10 +142,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "9", icon: "📦" },
-  { label: "Tests Passing", value: "259", icon: "✅" },
-  { label: "Contracts", value: "8", icon: "📜" },
-  { label: "GitHub Repos", value: "11", icon: "🔗" },
+  { label: "Projects", value: "10", icon: "📦" },
+  { label: "Tests Passing", value: "304", icon: "✅" },
+  { label: "Contracts", value: "9", icon: "📜" },
+  { label: "GitHub Repos", value: "12", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
