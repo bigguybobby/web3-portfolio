@@ -238,6 +238,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "LiquidityLocker",
+    emoji: "🔐",
+    tagline: "Time-Lock LP & ERC20 Tokens",
+    grant: "DeFi Security",
+    color: "from-cyan-400 to-blue-400",
+    border: "border-cyan-500/30 hover:border-cyan-500/60",
+    contract: "0xB1117E402B41334A1107415517852c406C52127f",
+    chain: "Celo Sepolia",
+    tests: 20, coverage: "100%",
+    features: ["Time-locked token deposits", "Extend lock (never shorten)", "Transfer lock ownership", "Multi-lock per user", "Time remaining queries"],
+    github: "https://github.com/bigguybobby/liquidity-locker",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -254,10 +268,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "18", icon: "📦" },
-  { label: "Tests Passing", value: "567", icon: "✅" },
-  { label: "Contracts", value: "17", icon: "📜" },
-  { label: "GitHub Repos", value: "20", icon: "🔗" },
+  { label: "Projects", value: "19", icon: "📦" },
+  { label: "Tests Passing", value: "587", icon: "✅" },
+  { label: "Contracts", value: "18", icon: "📜" },
+  { label: "GitHub Repos", value: "21", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
