@@ -462,6 +462,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Registry",
+    emoji: "📒",
+    tagline: "On-Chain Key-Value Store with Namespaces",
+    grant: "Infrastructure",
+    color: "from-cyan-400 to-teal-400",
+    border: "border-cyan-500/30 hover:border-cyan-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 20, coverage: "100%",
+    features: ["Namespace isolation", "Record CRUD", "Per-record ownership", "Resolver + data storage", "100% all metrics"],
+    github: "https://github.com/bigguybobby/registry",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -478,10 +492,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "34", icon: "📦" },
-  { label: "Tests Passing", value: "869", icon: "✅" },
-  { label: "Contracts", value: "33", icon: "📜" },
-  { label: "GitHub Repos", value: "36", icon: "🔗" },
+  { label: "Projects", value: "35", icon: "📦" },
+  { label: "Tests Passing", value: "889", icon: "✅" },
+  { label: "Contracts", value: "34", icon: "📜" },
+  { label: "GitHub Repos", value: "37", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
