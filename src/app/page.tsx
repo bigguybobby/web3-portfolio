@@ -952,6 +952,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "TokenVesting",
+    emoji: "🔓",
+    tagline: "Cliff + Linear Vesting",
+    grant: "Token Distribution",
+    color: "from-sky-400 to-cyan-400",
+    border: "border-sky-500/30 hover:border-sky-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 23, coverage: "100%",
+    features: ["Cliff + linear unlock", "Revocable grants", "Multi-beneficiary", "Partial claims", "View helpers"],
+    github: "https://github.com/bigguybobby/token-vesting",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -968,10 +982,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "69", icon: "📦" },
-  { label: "Tests Passing", value: "1670", icon: "✅" },
-  { label: "Contracts", value: "68", icon: "📜" },
-  { label: "GitHub Repos", value: "71", icon: "🔗" },
+  { label: "Projects", value: "70", icon: "📦" },
+  { label: "Tests Passing", value: "1693", icon: "✅" },
+  { label: "Contracts", value: "69", icon: "📜" },
+  { label: "GitHub Repos", value: "72", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
