@@ -210,6 +210,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "MerkleAirdrop",
+    emoji: "🪂",
+    tagline: "Gas-Efficient Merkle Token Distribution",
+    grant: "Token Infrastructure",
+    color: "from-fuchsia-400 to-pink-400",
+    border: "border-fuchsia-500/30 hover:border-fuchsia-500/60",
+    contract: "0x230a20CCe80D9Bd8434E4F1fFe5C6f1B785779c6",
+    chain: "Celo Sepolia",
+    tests: 30, coverage: "100%",
+    features: ["Merkle proof O(log n) claims", "Double-hash leaf protection", "Claim deadline + sweep", "On-chain proof verification", "Updatable root for new rounds"],
+    github: "https://github.com/bigguybobby/merkle-airdrop",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -226,10 +240,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "16", icon: "📦" },
-  { label: "Tests Passing", value: "510", icon: "✅" },
-  { label: "Contracts", value: "15", icon: "📜" },
-  { label: "GitHub Repos", value: "18", icon: "🔗" },
+  { label: "Projects", value: "17", icon: "📦" },
+  { label: "Tests Passing", value: "540", icon: "✅" },
+  { label: "Contracts", value: "16", icon: "📜" },
+  { label: "GitHub Repos", value: "19", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
