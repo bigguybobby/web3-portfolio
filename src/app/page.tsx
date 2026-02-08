@@ -406,6 +406,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Multicall",
+    emoji: "📡",
+    tagline: "Batch Calls in One Transaction",
+    grant: "Developer Tooling",
+    color: "from-sky-400 to-blue-400",
+    border: "border-sky-500/30 hover:border-sky-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 15, coverage: "100%",
+    features: ["aggregate (revert on fail)", "tryAggregate (partial failures)", "aggregateWithValue (ETH)", "Block helpers", "Excess ETH refund"],
+    github: "https://github.com/bigguybobby/multicall",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -422,10 +436,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "30", icon: "📦" },
-  { label: "Tests Passing", value: "809", icon: "✅" },
-  { label: "Contracts", value: "29", icon: "📜" },
-  { label: "GitHub Repos", value: "32", icon: "🔗" },
+  { label: "Projects", value: "31", icon: "📦" },
+  { label: "Tests Passing", value: "824", icon: "✅" },
+  { label: "Contracts", value: "30", icon: "📜" },
+  { label: "GitHub Repos", value: "33", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
