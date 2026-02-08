@@ -672,6 +672,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "InsurancePool",
+    emoji: "🛡️",
+    tagline: "Decentralized Insurance Protocol",
+    grant: "DeFi Insurance",
+    color: "from-lime-400 to-green-400",
+    border: "border-lime-500/30 hover:border-lime-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 27, coverage: "100%",
+    features: ["Staker-funded pool", "Policy purchase", "Claims + evidence", "Assessor quorum", "Automatic payout"],
+    github: "https://github.com/bigguybobby/insurance-pool",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -688,10 +702,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "49", icon: "📦" },
-  { label: "Tests Passing", value: "1228", icon: "✅" },
-  { label: "Contracts", value: "48", icon: "📜" },
-  { label: "GitHub Repos", value: "51", icon: "🔗" },
+  { label: "Projects", value: "50", icon: "📦" },
+  { label: "Tests Passing", value: "1255", icon: "✅" },
+  { label: "Contracts", value: "49", icon: "📜" },
+  { label: "GitHub Repos", value: "52", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
