@@ -224,6 +224,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "TokenFactory",
+    emoji: "🏭",
+    tagline: "Deploy ERC20 Tokens in One Transaction",
+    grant: "Token Infrastructure",
+    color: "from-orange-400 to-red-400",
+    border: "border-orange-500/30 hover:border-orange-500/60",
+    contract: "0x6b6EFd636C481E4810D0c1f25B2074107D21ADCC",
+    chain: "Celo Sepolia",
+    tests: 27, coverage: "100%",
+    features: ["One-tx ERC20 creation", "Custom decimals & supply", "Deployment registry", "Optional creation fee", "Automatic excess refund"],
+    github: "https://github.com/bigguybobby/token-factory",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -240,10 +254,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "17", icon: "📦" },
-  { label: "Tests Passing", value: "540", icon: "✅" },
-  { label: "Contracts", value: "16", icon: "📜" },
-  { label: "GitHub Repos", value: "19", icon: "🔗" },
+  { label: "Projects", value: "18", icon: "📦" },
+  { label: "Tests Passing", value: "567", icon: "✅" },
+  { label: "Contracts", value: "17", icon: "📜" },
+  { label: "GitHub Repos", value: "20", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
