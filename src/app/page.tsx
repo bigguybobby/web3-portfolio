@@ -546,6 +546,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "PaymentSplitter",
+    emoji: "💰",
+    tagline: "Split ETH & ERC20 by Shares",
+    grant: "DeFi Utility",
+    color: "from-emerald-400 to-teal-400",
+    border: "border-emerald-500/30 hover:border-emerald-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 21, coverage: "100%",
+    features: ["ETH splitting", "ERC20 splitting", "Pull-based claiming", "Incremental deposits", "Pending views"],
+    github: "https://github.com/bigguybobby/payment-splitter",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -562,10 +576,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "40", icon: "📦" },
-  { label: "Tests Passing", value: "1018", icon: "✅" },
-  { label: "Contracts", value: "39", icon: "📜" },
-  { label: "GitHub Repos", value: "42", icon: "🔗" },
+  { label: "Projects", value: "41", icon: "📦" },
+  { label: "Tests Passing", value: "1039", icon: "✅" },
+  { label: "Contracts", value: "40", icon: "📜" },
+  { label: "GitHub Repos", value: "43", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
