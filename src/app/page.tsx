@@ -126,6 +126,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Governor",
+    emoji: "🏛️",
+    tagline: "On-Chain DAO Governance",
+    grant: "DAO & Governance Infrastructure",
+    color: "from-violet-400 to-purple-400",
+    border: "border-violet-500/30 hover:border-violet-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 42, coverage: "100%",
+    features: ["Token-weighted For/Against/Abstain voting", "Configurable quorum & proposal threshold", "Multi-action proposals", "Snapshot total supply at creation", "Completes governance trilogy"],
+    github: "https://github.com/bigguybobby/governor",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -142,10 +156,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "10", icon: "📦" },
-  { label: "Tests Passing", value: "304", icon: "✅" },
-  { label: "Contracts", value: "9", icon: "📜" },
-  { label: "GitHub Repos", value: "12", icon: "🔗" },
+  { label: "Projects", value: "11", icon: "📦" },
+  { label: "Tests Passing", value: "346", icon: "✅" },
+  { label: "Contracts", value: "10", icon: "📜" },
+  { label: "GitHub Repos", value: "13", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
