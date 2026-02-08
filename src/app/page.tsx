@@ -868,6 +868,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Disperse",
+    emoji: "📤",
+    tagline: "Batch ETH & ERC20 Transfers",
+    grant: "Utility",
+    color: "from-fuchsia-400 to-pink-400",
+    border: "border-fuchsia-500/30 hover:border-fuchsia-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 17, coverage: "100%",
+    features: ["Batch ETH sends", "Batch ERC20 sends", "Equal splits", "Variable amounts", "Gas efficient"],
+    github: "https://github.com/bigguybobby/disperse",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -884,10 +898,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "63", icon: "📦" },
-  { label: "Tests Passing", value: "1552", icon: "✅" },
-  { label: "Contracts", value: "62", icon: "📜" },
-  { label: "GitHub Repos", value: "65", icon: "🔗" },
+  { label: "Projects", value: "64", icon: "📦" },
+  { label: "Tests Passing", value: "1569", icon: "✅" },
+  { label: "Contracts", value: "63", icon: "📜" },
+  { label: "GitHub Repos", value: "66", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
