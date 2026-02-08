@@ -294,6 +294,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "AccessControl",
+    emoji: "🔑",
+    tagline: "Role-Based Permission System",
+    grant: "Security Infrastructure",
+    color: "from-amber-400 to-yellow-400",
+    border: "border-amber-500/30 hover:border-amber-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 19, coverage: "100%",
+    features: ["Custom role definitions", "Admin hierarchy", "Grant/Revoke/Renounce", "On-chain member enumeration", "Zero dependencies"],
+    github: "https://github.com/bigguybobby/access-control",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -310,10 +324,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "22", icon: "📦" },
-  { label: "Tests Passing", value: "651", icon: "✅" },
-  { label: "Contracts", value: "21", icon: "📜" },
-  { label: "GitHub Repos", value: "24", icon: "🔗" },
+  { label: "Projects", value: "23", icon: "📦" },
+  { label: "Tests Passing", value: "670", icon: "✅" },
+  { label: "Contracts", value: "22", icon: "📜" },
+  { label: "GitHub Repos", value: "25", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
