@@ -854,6 +854,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "RewardDistributor",
+    emoji: "🎁",
+    tagline: "Epoch-Based Staking Rewards",
+    grant: "DeFi Staking",
+    color: "from-yellow-400 to-amber-400",
+    border: "border-yellow-500/30 hover:border-yellow-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 21, coverage: "100%",
+    features: ["Epoch rewards", "Proportional claims", "Early penalty", "Penalty pool", "Pending rewards view"],
+    github: "https://github.com/bigguybobby/reward-distributor",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -870,10 +884,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "62", icon: "📦" },
-  { label: "Tests Passing", value: "1531", icon: "✅" },
-  { label: "Contracts", value: "61", icon: "📜" },
-  { label: "GitHub Repos", value: "64", icon: "🔗" },
+  { label: "Projects", value: "63", icon: "📦" },
+  { label: "Tests Passing", value: "1552", icon: "✅" },
+  { label: "Contracts", value: "62", icon: "📜" },
+  { label: "GitHub Repos", value: "65", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
