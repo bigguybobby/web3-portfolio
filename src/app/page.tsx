@@ -1008,6 +1008,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "AttestationRegistry",
+    emoji: "📜",
+    tagline: "On-Chain Attestations (EAS-Style)",
+    grant: "Identity/Credentials",
+    color: "from-amber-400 to-yellow-400",
+    border: "border-amber-500/30 hover:border-amber-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 14, coverage: "100%",
+    features: ["Schema registry", "Attestations", "Revocable", "Expiration", "Validity check"],
+    github: "https://github.com/bigguybobby/attestation-registry",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1024,10 +1038,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "73", icon: "📦" },
-  { label: "Tests Passing", value: "1753", icon: "✅" },
-  { label: "Contracts", value: "72", icon: "📜" },
-  { label: "GitHub Repos", value: "75", icon: "🔗" },
+  { label: "Projects", value: "74", icon: "📦" },
+  { label: "Tests Passing", value: "1767", icon: "✅" },
+  { label: "Contracts", value: "73", icon: "📜" },
+  { label: "GitHub Repos", value: "76", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
