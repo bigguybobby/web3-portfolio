@@ -616,6 +616,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "RateLimiter",
+    emoji: "⏱️",
+    tagline: "On-Chain Token Bucket Rate Limiting",
+    grant: "Security Infrastructure",
+    color: "from-slate-400 to-gray-400",
+    border: "border-slate-500/30 hover:border-slate-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "100%",
+    features: ["Token bucket algorithm", "Per-user + global buckets", "Configurable limits", "Toggle per-limit", "Multiple limit types"],
+    github: "https://github.com/bigguybobby/rate-limiter",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -632,10 +646,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "45", icon: "📦" },
-  { label: "Tests Passing", value: "1135", icon: "✅" },
-  { label: "Contracts", value: "44", icon: "📜" },
-  { label: "GitHub Repos", value: "47", icon: "🔗" },
+  { label: "Projects", value: "46", icon: "📦" },
+  { label: "Tests Passing", value: "1157", icon: "✅" },
+  { label: "Contracts", value: "45", icon: "📜" },
+  { label: "GitHub Repos", value: "48", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
