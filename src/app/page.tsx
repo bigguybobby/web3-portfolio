@@ -266,6 +266,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "BatchTransfer",
+    emoji: "📦",
+    tagline: "Multi-Send ETH & ERC20 in One Tx",
+    grant: "Utility Infrastructure",
+    color: "from-slate-400 to-gray-400",
+    border: "border-slate-500/30 hover:border-slate-500/60",
+    contract: "0x4E1386049dd23c29C490B084DC59BA7a33b69c87",
+    chain: "Celo Sepolia",
+    tests: 24, coverage: "100%",
+    features: ["Batch ETH with different amounts", "Equal ETH to all recipients", "Batch ERC20 transfers", "Automatic excess refund", "Save 90%+ gas vs individual txs"],
+    github: "https://github.com/bigguybobby/batch-transfer",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -282,10 +296,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "20", icon: "📦" },
-  { label: "Tests Passing", value: "610", icon: "✅" },
-  { label: "Contracts", value: "19", icon: "📜" },
-  { label: "GitHub Repos", value: "22", icon: "🔗" },
+  { label: "Projects", value: "21", icon: "📦" },
+  { label: "Tests Passing", value: "634", icon: "✅" },
+  { label: "Contracts", value: "20", icon: "📜" },
+  { label: "GitHub Repos", value: "23", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
