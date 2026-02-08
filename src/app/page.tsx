@@ -966,6 +966,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "VaultGuard",
+    emoji: "🛡️",
+    tagline: "Smart Wallet with Spending Limits",
+    grant: "Wallet Security",
+    color: "from-zinc-400 to-slate-400",
+    border: "border-zinc-500/30 hover:border-zinc-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "100%",
+    features: ["Daily spending limit", "Transfer cooldown", "Whitelist destinations", "ETH + ERC20", "Auto daily reset"],
+    github: "https://github.com/bigguybobby/vault-guard",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -982,10 +996,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "70", icon: "📦" },
-  { label: "Tests Passing", value: "1693", icon: "✅" },
-  { label: "Contracts", value: "69", icon: "📜" },
-  { label: "GitHub Repos", value: "72", icon: "🔗" },
+  { label: "Projects", value: "71", icon: "📦" },
+  { label: "Tests Passing", value: "1715", icon: "✅" },
+  { label: "Contracts", value: "70", icon: "📜" },
+  { label: "GitHub Repos", value: "73", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
