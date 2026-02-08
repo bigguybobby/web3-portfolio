@@ -98,6 +98,20 @@ const projects = [
     tech: ["Solidity", "Foundry", "Next.js", "wagmi", "ConnectKit"],
   },
   {
+    name: "MultiSig",
+    emoji: "🔐",
+    tagline: "Lightweight Multi-Signature Wallet",
+    grant: "DAO & Security Infrastructure",
+    color: "from-amber-400 to-yellow-400",
+    border: "border-amber-500/30 hover:border-amber-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 37, coverage: "100%",
+    features: ["Propose/confirm/revoke/execute pattern", "Configurable threshold (M-of-N)", "ETH + ERC20 + arbitrary calls", "Self-governance (add/remove owners)", "No external dependencies"],
+    github: "https://github.com/bigguybobby/multi-sig",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -114,10 +128,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "8", icon: "📦" },
-  { label: "Tests Passing", value: "222", icon: "✅" },
-  { label: "Contracts Deployed", value: "7", icon: "📜" },
-  { label: "GitHub Repos", value: "10", icon: "🔗" },
+  { label: "Projects", value: "9", icon: "📦" },
+  { label: "Tests Passing", value: "259", icon: "✅" },
+  { label: "Contracts", value: "8", icon: "📜" },
+  { label: "GitHub Repos", value: "11", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
