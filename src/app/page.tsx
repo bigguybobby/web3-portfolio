@@ -392,6 +392,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "ERC4626Vault",
+    emoji: "🏦",
+    tagline: "Tokenized Yield Vault (ERC4626)",
+    grant: "DeFi Infrastructure",
+    color: "from-emerald-400 to-teal-400",
+    border: "border-emerald-500/30 hover:border-emerald-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 23, coverage: "99%",
+    features: ["ERC4626 deposit/withdraw/redeem", "Share appreciation with yield", "Full ERC20 share token", "On-behalf withdrawals", "Yield accrual tested"],
+    github: "https://github.com/bigguybobby/erc4626-vault",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -408,10 +422,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "29", icon: "📦" },
-  { label: "Tests Passing", value: "786", icon: "✅" },
-  { label: "Contracts", value: "28", icon: "📜" },
-  { label: "GitHub Repos", value: "31", icon: "🔗" },
+  { label: "Projects", value: "30", icon: "📦" },
+  { label: "Tests Passing", value: "809", icon: "✅" },
+  { label: "Contracts", value: "29", icon: "📜" },
+  { label: "GitHub Repos", value: "32", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
