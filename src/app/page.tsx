@@ -924,6 +924,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "TipJar",
+    emoji: "💰",
+    tagline: "On-Chain Tipping with Splits",
+    grant: "Social/Payments",
+    color: "from-green-400 to-emerald-400",
+    border: "border-green-500/30 hover:border-green-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 15, coverage: "100%",
+    features: ["Tip with message", "Revenue splits", "Leaderboard data", "Auto-record via receive", "Configurable BPS"],
+    github: "https://github.com/bigguybobby/tip-jar",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -940,10 +954,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "67", icon: "📦" },
-  { label: "Tests Passing", value: "1632", icon: "✅" },
-  { label: "Contracts", value: "66", icon: "📜" },
-  { label: "GitHub Repos", value: "69", icon: "🔗" },
+  { label: "Projects", value: "68", icon: "📦" },
+  { label: "Tests Passing", value: "1647", icon: "✅" },
+  { label: "Contracts", value: "67", icon: "📜" },
+  { label: "GitHub Repos", value: "70", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
