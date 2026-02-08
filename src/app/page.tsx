@@ -140,6 +140,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "StakeVault",
+    emoji: "🏦",
+    tagline: "ERC20 Staking with Rewards",
+    grant: "DeFi Infrastructure",
+    color: "from-emerald-400 to-teal-400",
+    border: "border-emerald-500/30 hover:border-emerald-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 35, coverage: "100%",
+    features: ["Synthetix-style reward distribution", "Proportional rewards per second", "Cooldown-based unstaking", "Extendable reward periods", "Owner-managed reward funding"],
+    github: "https://github.com/bigguybobby/stake-vault",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -156,10 +170,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "11", icon: "📦" },
-  { label: "Tests Passing", value: "346", icon: "✅" },
-  { label: "Contracts", value: "10", icon: "📜" },
-  { label: "GitHub Repos", value: "13", icon: "🔗" },
+  { label: "Projects", value: "12", icon: "📦" },
+  { label: "Tests Passing", value: "381", icon: "✅" },
+  { label: "Contracts", value: "11", icon: "📜" },
+  { label: "GitHub Repos", value: "14", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
