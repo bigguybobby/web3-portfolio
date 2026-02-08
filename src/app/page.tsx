@@ -938,6 +938,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "CommitReveal",
+    emoji: "🎲",
+    tagline: "Fair On-Chain Randomness",
+    grant: "Cryptographic Primitive",
+    color: "from-violet-400 to-purple-400",
+    border: "border-violet-500/30 hover:border-violet-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 23, coverage: "100%",
+    features: ["Two-phase scheme", "Combined randomness", "Multi-round", "Phase tracking", "Hash helper"],
+    github: "https://github.com/bigguybobby/commit-reveal",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -954,10 +968,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "68", icon: "📦" },
-  { label: "Tests Passing", value: "1647", icon: "✅" },
-  { label: "Contracts", value: "67", icon: "📜" },
-  { label: "GitHub Repos", value: "70", icon: "🔗" },
+  { label: "Projects", value: "69", icon: "📦" },
+  { label: "Tests Passing", value: "1670", icon: "✅" },
+  { label: "Contracts", value: "68", icon: "📜" },
+  { label: "GitHub Repos", value: "71", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
