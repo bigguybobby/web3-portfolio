@@ -1050,6 +1050,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "GovToken",
+    emoji: "🗳️",
+    tagline: "ERC20 Governance Token",
+    grant: "Governance",
+    color: "from-indigo-400 to-violet-400",
+    border: "border-indigo-500/30 hover:border-indigo-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 26, coverage: "100%",
+    features: ["Vote delegation", "Checkpoints", "getPastVotes", "Mint/Burn", "ERC20 compliant"],
+    github: "https://github.com/bigguybobby/gov-token",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1066,10 +1080,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "76", icon: "📦" },
-  { label: "Tests Passing", value: "1812", icon: "✅" },
-  { label: "Contracts", value: "75", icon: "📜" },
-  { label: "GitHub Repos", value: "78", icon: "🔗" },
+  { label: "Projects", value: "77", icon: "📦" },
+  { label: "Tests Passing", value: "1838", icon: "✅" },
+  { label: "Contracts", value: "76", icon: "📜" },
+  { label: "GitHub Repos", value: "79", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
