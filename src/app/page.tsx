@@ -532,6 +532,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Lottery",
+    emoji: "🎰",
+    tagline: "On-Chain Lottery with Prize Distribution",
+    grant: "DeFi Application",
+    color: "from-yellow-400 to-red-400",
+    border: "border-yellow-500/30 hover:border-yellow-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 27, coverage: "100%",
+    features: ["Ticket purchases", "Random winner draw", "Configurable fee", "Multi-round support", "State machine"],
+    github: "https://github.com/bigguybobby/lottery",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -548,10 +562,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "39", icon: "📦" },
-  { label: "Tests Passing", value: "991", icon: "✅" },
-  { label: "Contracts", value: "38", icon: "📜" },
-  { label: "GitHub Repos", value: "41", icon: "🔗" },
+  { label: "Projects", value: "40", icon: "📦" },
+  { label: "Tests Passing", value: "1018", icon: "✅" },
+  { label: "Contracts", value: "39", icon: "📜" },
+  { label: "GitHub Repos", value: "42", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
