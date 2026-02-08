@@ -336,6 +336,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Ownable2Step",
+    emoji: "👑",
+    tagline: "Safe Two-Step Ownership Transfer",
+    grant: "Security Primitive",
+    color: "from-yellow-400 to-amber-400",
+    border: "border-yellow-500/30 hover:border-yellow-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 16, coverage: "100%",
+    features: ["2-step propose/accept", "Cancel pending transfer", "Renounce ownership", "Override pending", "100% all metrics"],
+    github: "https://github.com/bigguybobby/ownable-2step",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -352,10 +366,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "25", icon: "📦" },
-  { label: "Tests Passing", value: "710", icon: "✅" },
-  { label: "Contracts", value: "24", icon: "📜" },
-  { label: "GitHub Repos", value: "27", icon: "🔗" },
+  { label: "Projects", value: "26", icon: "📦" },
+  { label: "Tests Passing", value: "726", icon: "✅" },
+  { label: "Contracts", value: "25", icon: "📜" },
+  { label: "GitHub Repos", value: "28", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
