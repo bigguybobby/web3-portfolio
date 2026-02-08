@@ -896,6 +896,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "ERC1155Multi",
+    emoji: "🎭",
+    tagline: "Multi-Token Standard",
+    grant: "Token Standard",
+    color: "from-orange-400 to-red-400",
+    border: "border-orange-500/30 hover:border-orange-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "100%",
+    features: ["Batch mint & transfer", "Burn", "Per-token URI", "Token creation", "ERC165 detection"],
+    github: "https://github.com/bigguybobby/erc1155-multi",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -912,10 +926,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "65", icon: "📦" },
-  { label: "Tests Passing", value: "1585", icon: "✅" },
-  { label: "Contracts", value: "64", icon: "📜" },
-  { label: "GitHub Repos", value: "67", icon: "🔗" },
+  { label: "Projects", value: "66", icon: "📦" },
+  { label: "Tests Passing", value: "1607", icon: "✅" },
+  { label: "Contracts", value: "65", icon: "📜" },
+  { label: "GitHub Repos", value: "68", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
