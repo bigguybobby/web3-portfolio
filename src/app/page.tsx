@@ -168,6 +168,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "FlashLoan",
+    emoji: "⚡",
+    tagline: "Minimal Flash Loan Pool",
+    grant: "DeFi Infrastructure",
+    color: "from-yellow-400 to-orange-400",
+    border: "border-yellow-500/30 hover:border-yellow-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 31, coverage: "100%",
+    features: ["Uncollateralized same-tx loans", "0.09% fee with minimum 1 wei", "Reentrancy guard protection", "Multi-token liquidity pools", "Fee collection for owner"],
+    github: "https://github.com/bigguybobby/flash-loan",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -184,10 +198,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "13", icon: "📦" },
-  { label: "Tests Passing", value: "416", icon: "✅" },
-  { label: "Contracts", value: "12", icon: "📜" },
-  { label: "GitHub Repos", value: "15", icon: "🔗" },
+  { label: "Projects", value: "14", icon: "📦" },
+  { label: "Tests Passing", value: "447", icon: "✅" },
+  { label: "Contracts", value: "13", icon: "📜" },
+  { label: "GitHub Repos", value: "16", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
