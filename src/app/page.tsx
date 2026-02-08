@@ -448,6 +448,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "MinimalToken",
+    emoji: "🪙",
+    tagline: "ERC20 + EIP-2612 Gasless Permit",
+    grant: "Token Standard",
+    color: "from-amber-400 to-orange-400",
+    border: "border-amber-500/30 hover:border-amber-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 19, coverage: "100%",
+    features: ["Full ERC20 standard", "EIP-2612 permit", "Mint/Burn", "Max allowance optimization", "100% all metrics"],
+    github: "https://github.com/bigguybobby/minimal-token",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -464,10 +478,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "33", icon: "📦" },
-  { label: "Tests Passing", value: "850", icon: "✅" },
-  { label: "Contracts", value: "32", icon: "📜" },
-  { label: "GitHub Repos", value: "35", icon: "🔗" },
+  { label: "Projects", value: "34", icon: "📦" },
+  { label: "Tests Passing", value: "869", icon: "✅" },
+  { label: "Contracts", value: "33", icon: "📜" },
+  { label: "GitHub Repos", value: "36", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
