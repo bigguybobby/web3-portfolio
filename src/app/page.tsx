@@ -784,6 +784,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "LimitOrder",
+    emoji: "📊",
+    tagline: "On-Chain Limit Order Book",
+    grant: "DeFi Trading",
+    color: "from-emerald-400 to-green-400",
+    border: "border-emerald-500/30 hover:border-emerald-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 20, coverage: "100%",
+    features: ["Partial fills", "Auto-expiry", "Cancel + refund", "Dual-side fees", "Any ERC20 pair"],
+    github: "https://github.com/bigguybobby/limit-order",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -800,10 +814,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "57", icon: "📦" },
-  { label: "Tests Passing", value: "1419", icon: "✅" },
-  { label: "Contracts", value: "56", icon: "📜" },
-  { label: "GitHub Repos", value: "59", icon: "🔗" },
+  { label: "Projects", value: "58", icon: "📦" },
+  { label: "Tests Passing", value: "1439", icon: "✅" },
+  { label: "Contracts", value: "57", icon: "📜" },
+  { label: "GitHub Repos", value: "60", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
