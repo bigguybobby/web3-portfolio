@@ -980,6 +980,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Subscription",
+    emoji: "🔄",
+    tagline: "On-Chain Recurring Payments",
+    grant: "DeFi Payments",
+    color: "from-teal-400 to-emerald-400",
+    border: "border-teal-500/30 hover:border-teal-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 20, coverage: "100%",
+    features: ["Subscription plans", "Auto-renewal", "Cancel anytime", "Plan toggle", "Status views"],
+    github: "https://github.com/bigguybobby/subscription",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -996,10 +1010,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "71", icon: "📦" },
-  { label: "Tests Passing", value: "1715", icon: "✅" },
-  { label: "Contracts", value: "70", icon: "📜" },
-  { label: "GitHub Repos", value: "73", icon: "🔗" },
+  { label: "Projects", value: "72", icon: "📦" },
+  { label: "Tests Passing", value: "1735", icon: "✅" },
+  { label: "Contracts", value: "71", icon: "📜" },
+  { label: "GitHub Repos", value: "74", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
