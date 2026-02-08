@@ -574,6 +574,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "EnglishAuction",
+    emoji: "🔨",
+    tagline: "Ascending-Price NFT Auction",
+    grant: "NFT / Marketplace",
+    color: "from-red-400 to-rose-400",
+    border: "border-red-500/30 hover:border-red-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "100%",
+    features: ["NFT escrow", "5% min increment", "Anti-snipe extension", "Pull-based refunds", "No-bid return"],
+    github: "https://github.com/bigguybobby/english-auction",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -590,10 +604,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "42", icon: "📦" },
-  { label: "Tests Passing", value: "1065", icon: "✅" },
-  { label: "Contracts", value: "41", icon: "📜" },
-  { label: "GitHub Repos", value: "44", icon: "🔗" },
+  { label: "Projects", value: "43", icon: "📦" },
+  { label: "Tests Passing", value: "1087", icon: "✅" },
+  { label: "Contracts", value: "42", icon: "📜" },
+  { label: "GitHub Repos", value: "45", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
