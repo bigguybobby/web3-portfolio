@@ -504,6 +504,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "SimpleSwap",
+    emoji: "🔄",
+    tagline: "Constant Product AMM (x*y=k)",
+    grant: "DeFi Core",
+    color: "from-pink-400 to-fuchsia-400",
+    border: "border-pink-500/30 hover:border-pink-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 20, coverage: "100%",
+    features: ["x*y=k invariant", "0.3% swap fee to LPs", "Add/remove liquidity", "Reentrancy guard", "On-chain price oracle"],
+    github: "https://github.com/bigguybobby/simple-swap",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -520,10 +534,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "37", icon: "📦" },
-  { label: "Tests Passing", value: "941", icon: "✅" },
-  { label: "Contracts", value: "36", icon: "📜" },
-  { label: "GitHub Repos", value: "39", icon: "🔗" },
+  { label: "Projects", value: "38", icon: "📦" },
+  { label: "Tests Passing", value: "961", icon: "✅" },
+  { label: "Contracts", value: "37", icon: "📜" },
+  { label: "GitHub Repos", value: "40", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
