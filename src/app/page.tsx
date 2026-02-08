@@ -196,6 +196,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "FeeRouter",
+    emoji: "💸",
+    tagline: "Protocol Fee Splitter & Revenue Router",
+    grant: "DAO Infrastructure",
+    color: "from-lime-400 to-green-400",
+    border: "border-lime-500/30 hover:border-lime-500/60",
+    contract: "0x62C5200ccFfc007C010f2FD3AB23771b0093d6C6",
+    chain: "Celo Sepolia",
+    tests: 27, coverage: "100%",
+    features: ["Share-based fee splitting", "ETH + ERC20 distribution", "Pull-based claiming (safe)", "Preview distribution", "Configurable minimum threshold"],
+    github: "https://github.com/bigguybobby/fee-router",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -212,10 +226,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "15", icon: "📦" },
-  { label: "Tests Passing", value: "483", icon: "✅" },
-  { label: "Contracts", value: "14", icon: "📜" },
-  { label: "GitHub Repos", value: "17", icon: "🔗" },
+  { label: "Projects", value: "16", icon: "📦" },
+  { label: "Tests Passing", value: "510", icon: "✅" },
+  { label: "Contracts", value: "15", icon: "📜" },
+  { label: "GitHub Repos", value: "18", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
