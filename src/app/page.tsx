@@ -588,6 +588,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "DAOTreasury",
+    emoji: "🏛️",
+    tagline: "Proposal-Based DAO Treasury",
+    grant: "Governance",
+    color: "from-violet-400 to-purple-400",
+    border: "border-violet-500/30 hover:border-violet-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 26, coverage: "100%",
+    features: ["Multi-guardian quorum", "Propose/Vote/Execute", "ETH + ERC20 support", "Per-proposal spending limit", "Auto-resetting daily cap"],
+    github: "https://github.com/bigguybobby/dao-treasury",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -604,10 +618,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "43", icon: "📦" },
-  { label: "Tests Passing", value: "1087", icon: "✅" },
-  { label: "Contracts", value: "42", icon: "📜" },
-  { label: "GitHub Repos", value: "45", icon: "🔗" },
+  { label: "Projects", value: "44", icon: "📦" },
+  { label: "Tests Passing", value: "1113", icon: "✅" },
+  { label: "Contracts", value: "43", icon: "📜" },
+  { label: "GitHub Repos", value: "46", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
