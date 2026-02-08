@@ -910,6 +910,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "DeadmanSwitch",
+    emoji: "⏳",
+    tagline: "Dead Man's Switch",
+    grant: "Wallet Security",
+    color: "from-red-400 to-rose-400",
+    border: "border-red-500/30 hover:border-red-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 25, coverage: "100%",
+    features: ["Periodic check-in", "Auto-trigger", "ETH + ERC20 transfer", "Token registry", "Configurable period"],
+    github: "https://github.com/bigguybobby/deadman-switch",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -926,10 +940,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "66", icon: "📦" },
-  { label: "Tests Passing", value: "1607", icon: "✅" },
-  { label: "Contracts", value: "65", icon: "📜" },
-  { label: "GitHub Repos", value: "68", icon: "🔗" },
+  { label: "Projects", value: "67", icon: "📦" },
+  { label: "Tests Passing", value: "1632", icon: "✅" },
+  { label: "Contracts", value: "66", icon: "📜" },
+  { label: "GitHub Repos", value: "69", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
