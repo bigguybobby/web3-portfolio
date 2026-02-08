@@ -518,6 +518,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "LendingPool",
+    emoji: "🏦",
+    tagline: "Collateralized Lending with Liquidations",
+    grant: "DeFi Core",
+    color: "from-blue-400 to-indigo-400",
+    border: "border-blue-500/30 hover:border-blue-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 30, coverage: "86%",
+    features: ["Collateral deposits", "Borrow against collateral", "Liquidation with bonus", "Health factor monitoring", "Supply-side lending"],
+    github: "https://github.com/bigguybobby/lending-pool",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -534,10 +548,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "38", icon: "📦" },
-  { label: "Tests Passing", value: "961", icon: "✅" },
-  { label: "Contracts", value: "37", icon: "📜" },
-  { label: "GitHub Repos", value: "40", icon: "🔗" },
+  { label: "Projects", value: "39", icon: "📦" },
+  { label: "Tests Passing", value: "991", icon: "✅" },
+  { label: "Contracts", value: "38", icon: "📜" },
+  { label: "GitHub Repos", value: "41", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
