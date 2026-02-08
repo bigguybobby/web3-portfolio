@@ -700,6 +700,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "YieldAggregator",
+    emoji: "🌾",
+    tagline: "Auto-Compounding Yield Vault",
+    grant: "DeFi Yield",
+    color: "from-green-400 to-lime-400",
+    border: "border-green-500/30 hover:border-green-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 24, coverage: "99%",
+    features: ["Pluggable strategies", "Auto-compound harvest", "Performance fee", "Share accounting", "Pausable"],
+    github: "https://github.com/bigguybobby/yield-aggregator",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -716,10 +730,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "51", icon: "📦" },
-  { label: "Tests Passing", value: "1283", icon: "✅" },
-  { label: "Contracts", value: "50", icon: "📜" },
-  { label: "GitHub Repos", value: "53", icon: "🔗" },
+  { label: "Projects", value: "52", icon: "📦" },
+  { label: "Tests Passing", value: "1307", icon: "✅" },
+  { label: "Contracts", value: "51", icon: "📜" },
+  { label: "GitHub Repos", value: "54", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
