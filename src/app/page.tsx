@@ -602,6 +602,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Permit2Vault",
+    emoji: "🔑",
+    tagline: "Gasless EIP-2612 Token Deposits",
+    grant: "DeFi UX",
+    color: "from-cyan-400 to-sky-400",
+    border: "border-cyan-500/30 hover:border-cyan-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "100%",
+    features: ["Gasless permit deposits", "Multi-token support", "Admin token list", "Pausable", "Instant withdrawals"],
+    github: "https://github.com/bigguybobby/permit2-vault",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -618,10 +632,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "44", icon: "📦" },
-  { label: "Tests Passing", value: "1113", icon: "✅" },
-  { label: "Contracts", value: "43", icon: "📜" },
-  { label: "GitHub Repos", value: "46", icon: "🔗" },
+  { label: "Projects", value: "45", icon: "📦" },
+  { label: "Tests Passing", value: "1135", icon: "✅" },
+  { label: "Contracts", value: "44", icon: "📜" },
+  { label: "GitHub Repos", value: "47", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
