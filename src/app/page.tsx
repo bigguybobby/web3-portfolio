@@ -350,6 +350,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "ReentrancyGuard",
+    emoji: "🛡️",
+    tagline: "Reentrancy Protection + Attack Demo",
+    grant: "Security Education",
+    color: "from-red-400 to-pink-400",
+    border: "border-red-500/30 hover:border-red-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 10, coverage: "100%",
+    features: ["nonReentrant modifier", "SecureVault (protected)", "VulnerableVault (exploit demo)", "Attack proof in tests", "Educational security tool"],
+    github: "https://github.com/bigguybobby/reentrancy-guard",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -366,10 +380,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "26", icon: "📦" },
-  { label: "Tests Passing", value: "726", icon: "✅" },
-  { label: "Contracts", value: "25", icon: "📜" },
-  { label: "GitHub Repos", value: "28", icon: "🔗" },
+  { label: "Projects", value: "27", icon: "📦" },
+  { label: "Tests Passing", value: "736", icon: "✅" },
+  { label: "Contracts", value: "26", icon: "📜" },
+  { label: "GitHub Repos", value: "29", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
