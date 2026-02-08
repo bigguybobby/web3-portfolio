@@ -770,6 +770,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "RoyaltyNFT",
+    emoji: "🎨",
+    tagline: "ERC721 + EIP-2981 Royalties",
+    grant: "NFT Standard",
+    color: "from-pink-400 to-rose-400",
+    border: "border-pink-500/30 hover:border-pink-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 25, coverage: "90%",
+    features: ["EIP-2981 royalties", "Batch mint", "Metadata reveal", "Configurable pricing", "Owner withdraw"],
+    github: "https://github.com/bigguybobby/royalty-nft",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -786,10 +800,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "56", icon: "📦" },
-  { label: "Tests Passing", value: "1394", icon: "✅" },
-  { label: "Contracts", value: "55", icon: "📜" },
-  { label: "GitHub Repos", value: "58", icon: "🔗" },
+  { label: "Projects", value: "57", icon: "📦" },
+  { label: "Tests Passing", value: "1419", icon: "✅" },
+  { label: "Contracts", value: "56", icon: "📜" },
+  { label: "GitHub Repos", value: "59", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
