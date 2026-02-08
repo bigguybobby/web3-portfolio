@@ -8,7 +8,7 @@ const projects = [
     border: "border-yellow-500/30 hover:border-yellow-500/60",
     contract: "0x5032320210Acf0133F8eAb5c4351E7a275556FEb",
     chain: "Celo Sepolia",
-    tests: 6,
+    tests: 6, coverage: "85%",
     features: ["Payment splitting (basis points)", "Scheduled recurring payments", "Group expense management", "AI agent authorization with spending caps", "ERC-8004 agent identity (ID: 0)"],
     github: "https://github.com/bigguybobby/celo-pay-agent",
     tech: ["Solidity", "Foundry", "Next.js", "wagmi", "ERC-8004"],
@@ -22,7 +22,7 @@ const projects = [
     border: "border-purple-500/30 hover:border-purple-500/60",
     contract: "0x1CaA18014F4AafEC6aC439E1b848484b6A368Db0",
     chain: "Celo Sepolia",
-    tests: 8,
+    tests: 8, coverage: "96%",
     features: ["Encrypted audit reports on-chain", "Public 0-100 trust scores", "Selective finding disclosure", "Auditor reputation system", "Severity breakdown (Critical/High/Med/Low/Info)"],
     github: "https://github.com/bigguybobby/coti-private-audit",
     tech: ["Solidity", "Foundry", "Next.js", "wagmi", "COTI MPC"],
@@ -36,7 +36,7 @@ const projects = [
     border: "border-emerald-500/30 hover:border-emerald-500/60",
     contract: "0x7197846b689e2FfF2825f7fa62D08ba504933409",
     chain: "Celo Sepolia",
-    tests: 10,
+    tests: 18, coverage: "100%",
     features: ["Register contracts for monitoring", "Alert system (reentrancy, flash loans, etc.)", "Dynamic 0-100 security score", "Alert acknowledgement workflow", "Batch score queries"],
     github: "https://github.com/bigguybobby/scroll-sentinel",
     tech: ["Solidity", "Foundry", "Next.js", "wagmi", "ConnectKit"],
@@ -50,7 +50,7 @@ const projects = [
     border: "border-indigo-500/30 hover:border-indigo-500/60",
     contract: "0x9Aa87Cff875c671af7EDE5d750d0Ea747ABC23F0",
     chain: "Celo Sepolia",
-    tests: 12,
+    tests: 31, coverage: "98%",
     features: ["Create YES/NO markets", "Proportional payouts from winning pool", "Real-time odds calculation", "Invalid market refunds", "2% configurable protocol fee"],
     github: "https://github.com/bigguybobby/polygon-predict",
     tech: ["Solidity", "Foundry", "Next.js", "wagmi", "ConnectKit"],
@@ -59,7 +59,7 @@ const projects = [
 
 const stats = [
   { label: "Projects", value: "4", icon: "📦" },
-  { label: "Tests Passing", value: "36", icon: "✅" },
+  { label: "Tests Passing", value: "63", icon: "✅" },
   { label: "Contracts Deployed", value: "4", icon: "📜" },
   { label: "GitHub Repos", value: "4", icon: "🔗" },
   { label: "Frontends", value: "4", icon: "🖥️" },
@@ -122,7 +122,10 @@ export default function Home() {
                     <p className="text-sm text-gray-400">{p.tagline}</p>
                   </div>
                 </div>
-                <span className="rounded-full bg-green-500/10 border border-green-500/30 px-2 py-0.5 text-xs text-green-400">{p.tests}/{p.tests} ✅</span>
+                <div className="flex items-center gap-2">
+                  <span className="rounded-full bg-green-500/10 border border-green-500/30 px-2 py-0.5 text-xs text-green-400">{p.tests}/{p.tests} ✅</span>
+                  <span className="rounded-full bg-blue-500/10 border border-blue-500/30 px-2 py-0.5 text-xs text-blue-400">{(p as any).coverage}</span>
+                </div>
               </div>
               <div className="text-xs text-gray-500 mb-3">🎯 {p.grant}</div>
               <ul className="space-y-1 mb-4">
