@@ -420,6 +420,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "SignatureVerifier",
+    emoji: "✍️",
+    tagline: "EIP-712 + ECDSA On-Chain Verification",
+    grant: "Cryptography Infrastructure",
+    color: "from-fuchsia-400 to-purple-400",
+    border: "border-fuchsia-500/30 hover:border-fuchsia-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 13, coverage: "100%",
+    features: ["EIP-712 typed data", "personal_sign verification", "Nonce replay protection", "Deadline expiry", "Malleable sig protection"],
+    github: "https://github.com/bigguybobby/signature-verify",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -436,10 +450,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "31", icon: "📦" },
-  { label: "Tests Passing", value: "824", icon: "✅" },
-  { label: "Contracts", value: "30", icon: "📜" },
-  { label: "GitHub Repos", value: "33", icon: "🔗" },
+  { label: "Projects", value: "32", icon: "📦" },
+  { label: "Tests Passing", value: "837", icon: "✅" },
+  { label: "Contracts", value: "31", icon: "📜" },
+  { label: "GitHub Repos", value: "34", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
