@@ -182,6 +182,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Escrow",
+    emoji: "🤝",
+    tagline: "Trustless Escrow with Dispute Resolution",
+    grant: "Marketplace Infrastructure",
+    color: "from-sky-400 to-cyan-400",
+    border: "border-sky-500/30 hover:border-sky-500/60",
+    contract: "0x6e419a1244E9bd71B43AD8Cd2Cb5D0e53AC2017B",
+    chain: "Celo Sepolia",
+    tests: 36, coverage: "100%",
+    features: ["Buyer/seller/arbiter pattern", "Dispute resolution with split payouts", "Deadline auto-refund", "Configurable arbiter fee (max 10%)", "Cancel before delivery"],
+    github: "https://github.com/bigguybobby/escrow",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -198,10 +212,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "14", icon: "📦" },
-  { label: "Tests Passing", value: "447", icon: "✅" },
-  { label: "Contracts", value: "13", icon: "📜" },
-  { label: "GitHub Repos", value: "16", icon: "🔗" },
+  { label: "Projects", value: "15", icon: "📦" },
+  { label: "Tests Passing", value: "483", icon: "✅" },
+  { label: "Contracts", value: "14", icon: "📜" },
+  { label: "GitHub Repos", value: "17", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
