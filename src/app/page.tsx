@@ -812,6 +812,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "TimelockWallet",
+    emoji: "🔐",
+    tagline: "Delayed Withdrawals + Guardian",
+    grant: "Wallet Security",
+    color: "from-slate-400 to-gray-400",
+    border: "border-slate-500/30 hover:border-slate-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 28, coverage: "100%",
+    features: ["Time-delayed withdrawals", "Guardian cancel/lock", "Emergency freeze", "ETH + ERC20", "Ownership transfer"],
+    github: "https://github.com/bigguybobby/timelock-wallet",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -828,10 +842,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "59", icon: "📦" },
-  { label: "Tests Passing", value: "1463", icon: "✅" },
-  { label: "Contracts", value: "58", icon: "📜" },
-  { label: "GitHub Repos", value: "61", icon: "🔗" },
+  { label: "Projects", value: "60", icon: "📦" },
+  { label: "Tests Passing", value: "1491", icon: "✅" },
+  { label: "Contracts", value: "59", icon: "📜" },
+  { label: "GitHub Repos", value: "62", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
