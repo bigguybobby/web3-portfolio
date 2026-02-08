@@ -882,6 +882,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "WETH",
+    emoji: "💎",
+    tagline: "Wrapped Ether (ERC20)",
+    grant: "Core Primitive",
+    color: "from-blue-400 to-indigo-400",
+    border: "border-blue-500/30 hover:border-blue-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 16, coverage: "100%",
+    features: ["Deposit/Withdraw", "Full ERC20", "Max allowance", "Auto-wrap via receive", "Canonical implementation"],
+    github: "https://github.com/bigguybobby/weth",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -898,10 +912,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "64", icon: "📦" },
-  { label: "Tests Passing", value: "1569", icon: "✅" },
-  { label: "Contracts", value: "63", icon: "📜" },
-  { label: "GitHub Repos", value: "66", icon: "🔗" },
+  { label: "Projects", value: "65", icon: "📦" },
+  { label: "Tests Passing", value: "1585", icon: "✅" },
+  { label: "Contracts", value: "64", icon: "📜" },
+  { label: "GitHub Repos", value: "67", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
