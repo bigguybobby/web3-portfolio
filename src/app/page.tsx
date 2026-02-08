@@ -798,6 +798,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "StreamPay",
+    emoji: "💸",
+    tagline: "Continuous Money Streaming",
+    grant: "DeFi Payments",
+    color: "from-cyan-400 to-blue-400",
+    border: "border-cyan-500/30 hover:border-cyan-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 24, coverage: "100%",
+    features: ["Linear token streaming", "Partial withdrawals", "Cancel + fair split", "Any ERC20", "Multiple concurrent streams"],
+    github: "https://github.com/bigguybobby/stream-pay",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -814,10 +828,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "58", icon: "📦" },
-  { label: "Tests Passing", value: "1439", icon: "✅" },
-  { label: "Contracts", value: "57", icon: "📜" },
-  { label: "GitHub Repos", value: "60", icon: "🔗" },
+  { label: "Projects", value: "59", icon: "📦" },
+  { label: "Tests Passing", value: "1463", icon: "✅" },
+  { label: "Contracts", value: "58", icon: "📜" },
+  { label: "GitHub Repos", value: "61", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
