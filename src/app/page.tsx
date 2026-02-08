@@ -728,6 +728,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "OptionVault",
+    emoji: "📈",
+    tagline: "European Covered Options",
+    grant: "DeFi Derivatives",
+    color: "from-teal-400 to-cyan-400",
+    border: "border-teal-500/30 hover:border-teal-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 23, coverage: "100%",
+    features: ["Call & Put options", "Covered collateral", "European exercise", "Protocol fees", "ITM payout calc"],
+    github: "https://github.com/bigguybobby/option-vault",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -744,10 +758,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "53", icon: "📦" },
-  { label: "Tests Passing", value: "1328", icon: "✅" },
-  { label: "Contracts", value: "52", icon: "📜" },
-  { label: "GitHub Repos", value: "55", icon: "🔗" },
+  { label: "Projects", value: "54", icon: "📦" },
+  { label: "Tests Passing", value: "1351", icon: "✅" },
+  { label: "Contracts", value: "53", icon: "📜" },
+  { label: "GitHub Repos", value: "56", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
