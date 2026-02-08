@@ -742,6 +742,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "StableSwap",
+    emoji: "🔄",
+    tagline: "Curve-Style Low-Slippage AMM",
+    grant: "DeFi AMM",
+    color: "from-purple-400 to-violet-400",
+    border: "border-purple-500/30 hover:border-purple-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "100%",
+    features: ["Amplified curve (A param)", "<1% slippage at peg", "0.04% swap fee", "Virtual price tracking", "LP shares"],
+    github: "https://github.com/bigguybobby/stableswap",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -758,10 +772,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "54", icon: "📦" },
-  { label: "Tests Passing", value: "1351", icon: "✅" },
-  { label: "Contracts", value: "53", icon: "📜" },
-  { label: "GitHub Repos", value: "56", icon: "🔗" },
+  { label: "Projects", value: "55", icon: "📦" },
+  { label: "Tests Passing", value: "1373", icon: "✅" },
+  { label: "Contracts", value: "54", icon: "📜" },
+  { label: "GitHub Repos", value: "57", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
