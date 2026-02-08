@@ -87,7 +87,7 @@ const projects = [
 
 const stats = [
   { label: "Projects", value: "6", icon: "📦" },
-  { label: "Tests Passing", value: "184", icon: "✅" },
+  { label: "Tests Passing", value: "190", icon: "✅" },
   { label: "Contracts Deployed", value: "6", icon: "📜" },
   { label: "GitHub Repos", value: "8", icon: "🔗" },
   { label: "Frontends", value: "6", icon: "🖥️" },
