@@ -630,6 +630,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "NFTMarketplace",
+    emoji: "🖼️",
+    tagline: "NFT Marketplace with Royalties",
+    grant: "NFT Infrastructure",
+    color: "from-fuchsia-400 to-pink-400",
+    border: "border-fuchsia-500/30 hover:border-fuchsia-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 20, coverage: "100%",
+    features: ["List/Buy/Cancel", "Creator royalties", "Platform fees", "NFT escrow", "Relist support"],
+    github: "https://github.com/bigguybobby/nft-marketplace",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -646,10 +660,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "46", icon: "📦" },
-  { label: "Tests Passing", value: "1157", icon: "✅" },
-  { label: "Contracts", value: "45", icon: "📜" },
-  { label: "GitHub Repos", value: "48", icon: "🔗" },
+  { label: "Projects", value: "47", icon: "📦" },
+  { label: "Tests Passing", value: "1177", icon: "✅" },
+  { label: "Contracts", value: "46", icon: "📜" },
+  { label: "GitHub Repos", value: "49", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
