@@ -714,6 +714,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Perpetuals",
+    emoji: "📊",
+    tagline: "Leveraged Perpetual Futures",
+    grant: "DeFi Derivatives",
+    color: "from-sky-400 to-blue-400",
+    border: "border-sky-500/30 hover:border-sky-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 21, coverage: "99%",
+    features: ["Long/Short positions", "Up to 10x leverage", "Liquidation engine", "Insurance fund", "Open interest tracking"],
+    github: "https://github.com/bigguybobby/perpetuals",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -730,10 +744,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "52", icon: "📦" },
-  { label: "Tests Passing", value: "1307", icon: "✅" },
-  { label: "Contracts", value: "51", icon: "📜" },
-  { label: "GitHub Repos", value: "54", icon: "🔗" },
+  { label: "Projects", value: "53", icon: "📦" },
+  { label: "Tests Passing", value: "1328", icon: "✅" },
+  { label: "Contracts", value: "52", icon: "📜" },
+  { label: "GitHub Repos", value: "55", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
