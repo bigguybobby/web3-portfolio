@@ -686,6 +686,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Launchpad",
+    emoji: "🚀",
+    tagline: "Token Presale with Vesting & Refunds",
+    grant: "DeFi Launchpad",
+    color: "from-rose-400 to-red-400",
+    border: "border-rose-500/30 hover:border-rose-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 28, coverage: "99%",
+    features: ["Whitelist + public sale", "Hard/soft cap", "Per-user limits", "Linear vesting", "Auto refund on failure"],
+    github: "https://github.com/bigguybobby/launchpad",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -702,10 +716,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "50", icon: "📦" },
-  { label: "Tests Passing", value: "1255", icon: "✅" },
-  { label: "Contracts", value: "49", icon: "📜" },
-  { label: "GitHub Repos", value: "52", icon: "🔗" },
+  { label: "Projects", value: "51", icon: "📦" },
+  { label: "Tests Passing", value: "1283", icon: "✅" },
+  { label: "Contracts", value: "50", icon: "📜" },
+  { label: "GitHub Repos", value: "53", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
