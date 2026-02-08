@@ -322,6 +322,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "DutchAuction",
+    emoji: "🏷️",
+    tagline: "Descending Price Token Auction",
+    grant: "DeFi Marketplace",
+    color: "from-orange-400 to-red-400",
+    border: "border-orange-500/30 hover:border-orange-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 25, coverage: "100%",
+    features: ["Linear price decay", "Instant settlement", "Excess ETH refund", "Seller cancel", "Active auction queries"],
+    github: "https://github.com/bigguybobby/dutch-auction",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -338,10 +352,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "24", icon: "📦" },
-  { label: "Tests Passing", value: "685", icon: "✅" },
-  { label: "Contracts", value: "23", icon: "📜" },
-  { label: "GitHub Repos", value: "26", icon: "🔗" },
+  { label: "Projects", value: "25", icon: "📦" },
+  { label: "Tests Passing", value: "710", icon: "✅" },
+  { label: "Contracts", value: "24", icon: "📜" },
+  { label: "GitHub Repos", value: "27", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
