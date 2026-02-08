@@ -378,6 +378,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Whitelist",
+    emoji: "📋",
+    tagline: "Manual + Merkle Whitelist with Tiers",
+    grant: "Access Control",
+    color: "from-lime-400 to-green-400",
+    border: "border-lime-500/30 hover:border-lime-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "100%",
+    features: ["Manual add/remove", "Batch add", "Merkle proof claims", "Tiered access levels", "Max whitelist cap"],
+    github: "https://github.com/bigguybobby/whitelist",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -394,10 +408,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "28", icon: "📦" },
-  { label: "Tests Passing", value: "764", icon: "✅" },
-  { label: "Contracts", value: "27", icon: "📜" },
-  { label: "GitHub Repos", value: "30", icon: "🔗" },
+  { label: "Projects", value: "29", icon: "📦" },
+  { label: "Tests Passing", value: "786", icon: "✅" },
+  { label: "Contracts", value: "28", icon: "📜" },
+  { label: "GitHub Repos", value: "31", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
