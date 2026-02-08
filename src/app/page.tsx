@@ -364,6 +364,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Pausable",
+    emoji: "⏸️",
+    tagline: "Emergency Stop with Granular Control",
+    grant: "Security Infrastructure",
+    color: "from-rose-400 to-red-400",
+    border: "border-rose-500/30 hover:border-rose-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 28, coverage: "100%",
+    features: ["Global pause/unpause", "Per-function selector pausing", "Guardian role", "Emergency withdraw bypass", "Ownership transfer"],
+    github: "https://github.com/bigguybobby/pausable",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -380,10 +394,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "27", icon: "📦" },
-  { label: "Tests Passing", value: "736", icon: "✅" },
-  { label: "Contracts", value: "26", icon: "📜" },
-  { label: "GitHub Repos", value: "29", icon: "🔗" },
+  { label: "Projects", value: "28", icon: "📦" },
+  { label: "Tests Passing", value: "764", icon: "✅" },
+  { label: "Contracts", value: "27", icon: "📜" },
+  { label: "GitHub Repos", value: "30", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
