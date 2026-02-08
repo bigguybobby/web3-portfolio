@@ -22,7 +22,7 @@ const projects = [
     border: "border-purple-500/30 hover:border-purple-500/60",
     contract: "0x1CaA18014F4AafEC6aC439E1b848484b6A368Db0",
     chain: "Celo Sepolia",
-    tests: 8, coverage: "96%",
+    tests: 24, coverage: "100%",
     features: ["Encrypted audit reports on-chain", "Public 0-100 trust scores", "Selective finding disclosure", "Auditor reputation system", "Severity breakdown (Critical/High/Med/Low/Info)"],
     github: "https://github.com/bigguybobby/coti-private-audit",
     tech: ["Solidity", "Foundry", "Next.js", "wagmi", "COTI MPC"],
@@ -87,7 +87,7 @@ const projects = [
 
 const stats = [
   { label: "Projects", value: "6", icon: "📦" },
-  { label: "Tests Passing", value: "168", icon: "✅" },
+  { label: "Tests Passing", value: "184", icon: "✅" },
   { label: "Contracts Deployed", value: "6", icon: "📜" },
   { label: "GitHub Repos", value: "8", icon: "🔗" },
   { label: "Frontends", value: "6", icon: "🖥️" },
