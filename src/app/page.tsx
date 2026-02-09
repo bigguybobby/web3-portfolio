@@ -1134,6 +1134,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Raffle",
+    emoji: "🎫",
+    tagline: "On-Chain Raffle System",
+    grant: "Gaming/DeFi",
+    color: "from-purple-400 to-fuchsia-400",
+    border: "border-purple-500/30 hover:border-purple-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 25, coverage: "100%",
+    features: ["Ticket purchases", "Random draw", "Cancel + refund", "Protocol fees", "Creator controls"],
+    github: "https://github.com/bigguybobby/raffle",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1150,10 +1164,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "82", icon: "📦" },
-  { label: "Tests Passing", value: "1938", icon: "✅" },
-  { label: "Contracts", value: "81", icon: "📜" },
-  { label: "GitHub Repos", value: "84", icon: "🔗" },
+  { label: "Projects", value: "83", icon: "📦" },
+  { label: "Tests Passing", value: "1963", icon: "✅" },
+  { label: "Contracts", value: "82", icon: "📜" },
+  { label: "GitHub Repos", value: "85", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
