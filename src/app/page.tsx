@@ -1078,6 +1078,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Stablecoin",
+    emoji: "💵",
+    tagline: "Overcollateralized ETH-Backed sUSD",
+    grant: "DeFi",
+    color: "from-green-400 to-emerald-400",
+    border: "border-green-500/30 hover:border-green-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 26, coverage: "100%",
+    features: ["ETH vaults", "sUSD minting", "Liquidation", "Penalty system", "Oracle price"],
+    github: "https://github.com/bigguybobby/stablecoin",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1094,10 +1108,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "78", icon: "📦" },
-  { label: "Tests Passing", value: "1860", icon: "✅" },
-  { label: "Contracts", value: "77", icon: "📜" },
-  { label: "GitHub Repos", value: "80", icon: "🔗" },
+  { label: "Projects", value: "79", icon: "📦" },
+  { label: "Tests Passing", value: "1886", icon: "✅" },
+  { label: "Contracts", value: "78", icon: "📜" },
+  { label: "GitHub Repos", value: "81", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
