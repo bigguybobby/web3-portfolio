@@ -1120,6 +1120,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Dividend",
+    emoji: "💰",
+    tagline: "ERC20 with ETH Dividends",
+    grant: "DeFi/Token",
+    color: "from-emerald-400 to-teal-400",
+    border: "border-emerald-500/30 hover:border-emerald-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 16, coverage: "98%",
+    features: ["Proportional dividends", "Claim anytime", "Transfer-aware", "Multiple rounds", "O(1) calculation"],
+    github: "https://github.com/bigguybobby/dividend",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1136,10 +1150,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "81", icon: "📦" },
-  { label: "Tests Passing", value: "1922", icon: "✅" },
-  { label: "Contracts", value: "80", icon: "📜" },
-  { label: "GitHub Repos", value: "83", icon: "🔗" },
+  { label: "Projects", value: "82", icon: "📦" },
+  { label: "Tests Passing", value: "1938", icon: "✅" },
+  { label: "Contracts", value: "81", icon: "📜" },
+  { label: "GitHub Repos", value: "84", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
