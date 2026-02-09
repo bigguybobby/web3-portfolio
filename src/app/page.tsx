@@ -1106,6 +1106,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "GasStation",
+    emoji: "⛽",
+    tagline: "Sponsored Gas Pools",
+    grant: "Infrastructure",
+    color: "from-lime-400 to-green-400",
+    border: "border-lime-500/30 hover:border-lime-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 21, coverage: "100%",
+    features: ["Gas pools", "Open/whitelist", "Sponsored calls", "Pool management", "Usage tracking"],
+    github: "https://github.com/bigguybobby/gas-station",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1122,10 +1136,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "80", icon: "📦" },
-  { label: "Tests Passing", value: "1901", icon: "✅" },
-  { label: "Contracts", value: "79", icon: "📜" },
-  { label: "GitHub Repos", value: "82", icon: "🔗" },
+  { label: "Projects", value: "81", icon: "📦" },
+  { label: "Tests Passing", value: "1922", icon: "✅" },
+  { label: "Contracts", value: "80", icon: "📜" },
+  { label: "GitHub Repos", value: "83", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
