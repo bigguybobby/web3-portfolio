@@ -1414,6 +1414,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "BountyBoard",
+    emoji: "🎯",
+    tagline: "On-Chain Bounty Platform",
+    grant: "Public Goods",
+    color: "from-orange-400 to-red-400",
+    border: "border-orange-500/30 hover:border-orange-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 21, coverage: "100%",
+    features: ["Bounty lifecycle", "Platform fees", "Deadline enforcement", "Reject & reopen", "Refund on cancel"],
+    github: "https://github.com/bigguybobby/bounty-board",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1430,10 +1444,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "102", icon: "📦" },
-  { label: "Tests Passing", value: "2338", icon: "✅" },
-  { label: "Contracts", value: "101", icon: "📜" },
-  { label: "GitHub Repos", value: "104", icon: "🔗" },
+  { label: "Projects", value: "103", icon: "📦" },
+  { label: "Tests Passing", value: "2362", icon: "✅" },
+  { label: "Contracts", value: "102", icon: "📜" },
+  { label: "GitHub Repos", value: "105", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
