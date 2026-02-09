@@ -1274,6 +1274,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Coupon",
+    emoji: "🎟️",
+    tagline: "On-Chain Redeemable Vouchers",
+    grant: "Payments",
+    color: "from-pink-400 to-rose-400",
+    border: "border-pink-500/30 hover:border-pink-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 19, coverage: "97%",
+    features: ["ETH-backed coupons", "Usage limits", "Expiry dates", "One per user", "Deactivation"],
+    github: "https://github.com/bigguybobby/coupon",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1290,10 +1304,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "92", icon: "📦" },
-  { label: "Tests Passing", value: "2145", icon: "✅" },
-  { label: "Contracts", value: "91", icon: "📜" },
-  { label: "GitHub Repos", value: "94", icon: "🔗" },
+  { label: "Projects", value: "93", icon: "📦" },
+  { label: "Tests Passing", value: "2164", icon: "✅" },
+  { label: "Contracts", value: "92", icon: "📜" },
+  { label: "GitHub Repos", value: "95", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
