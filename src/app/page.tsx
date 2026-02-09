@@ -1176,6 +1176,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "DAOVoting",
+    emoji: "🏛️",
+    tagline: "Token-Weighted DAO Governance",
+    grant: "Governance",
+    color: "from-violet-400 to-purple-400",
+    border: "border-violet-500/30 hover:border-violet-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 23, coverage: "98%",
+    features: ["Token-weighted", "Quorum", "Proposal lifecycle", "On-chain execution", "Cancel"],
+    github: "https://github.com/bigguybobby/dao-voting",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1192,10 +1206,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "85", icon: "📦" },
-  { label: "Tests Passing", value: "2008", icon: "✅" },
-  { label: "Contracts", value: "84", icon: "📜" },
-  { label: "GitHub Repos", value: "87", icon: "🔗" },
+  { label: "Projects", value: "86", icon: "📦" },
+  { label: "Tests Passing", value: "2031", icon: "✅" },
+  { label: "Contracts", value: "85", icon: "📜" },
+  { label: "GitHub Repos", value: "88", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
