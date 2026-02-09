@@ -1358,6 +1358,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "ProxyAdmin",
+    emoji: "🔧",
+    tagline: "Transparent Proxy Upgrade Manager",
+    grant: "Infrastructure",
+    color: "from-gray-400 to-slate-400",
+    border: "border-gray-500/30 hover:border-gray-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 19, coverage: "100%",
+    features: ["Transparent proxy", "EIP-1967 slots", "Multi-proxy management", "Upgrade control", "Admin separation"],
+    github: "https://github.com/bigguybobby/proxy-admin",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1374,10 +1388,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "98", icon: "📦" },
-  { label: "Tests Passing", value: "2239", icon: "✅" },
-  { label: "Contracts", value: "97", icon: "📜" },
-  { label: "GitHub Repos", value: "100", icon: "🔗" },
+  { label: "Projects", value: "99", icon: "📦" },
+  { label: "Tests Passing", value: "2258", icon: "✅" },
+  { label: "Contracts", value: "98", icon: "📜" },
+  { label: "GitHub Repos", value: "101", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
