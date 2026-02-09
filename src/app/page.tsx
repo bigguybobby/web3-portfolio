@@ -1190,6 +1190,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "NFTAuction",
+    emoji: "🔨",
+    tagline: "Timed NFT Auction House",
+    grant: "NFT/DeFi",
+    color: "from-rose-400 to-red-400",
+    border: "border-rose-500/30 hover:border-rose-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 19, coverage: "100%",
+    features: ["Reserve prices", "Min bid increment", "Auto-refund", "Settlement", "No-bid return"],
+    github: "https://github.com/bigguybobby/nft-auction",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1206,10 +1220,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "86", icon: "📦" },
-  { label: "Tests Passing", value: "2031", icon: "✅" },
-  { label: "Contracts", value: "85", icon: "📜" },
-  { label: "GitHub Repos", value: "88", icon: "🔗" },
+  { label: "Projects", value: "87", icon: "📦" },
+  { label: "Tests Passing", value: "2050", icon: "✅" },
+  { label: "Contracts", value: "86", icon: "📜" },
+  { label: "GitHub Repos", value: "89", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
