@@ -1260,6 +1260,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "VaultFactory",
+    emoji: "🏭",
+    tagline: "Deploy Configurable Token Vaults",
+    grant: "DeFi Infrastructure",
+    color: "from-slate-400 to-zinc-400",
+    border: "border-slate-500/30 hover:border-slate-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 16, coverage: "97%",
+    features: ["Factory pattern", "Deposit caps", "Pausable", "Creator tracking", "Full lifecycle"],
+    github: "https://github.com/bigguybobby/vault-factory",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1276,10 +1290,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "91", icon: "📦" },
-  { label: "Tests Passing", value: "2129", icon: "✅" },
-  { label: "Contracts", value: "90", icon: "📜" },
-  { label: "GitHub Repos", value: "93", icon: "🔗" },
+  { label: "Projects", value: "92", icon: "📦" },
+  { label: "Tests Passing", value: "2145", icon: "✅" },
+  { label: "Contracts", value: "91", icon: "📜" },
+  { label: "GitHub Repos", value: "94", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
