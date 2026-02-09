@@ -1232,6 +1232,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Freelance",
+    emoji: "💼",
+    tagline: "On-Chain Freelance Escrow",
+    grant: "Marketplace",
+    color: "from-amber-400 to-orange-400",
+    border: "border-amber-500/30 hover:border-amber-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 26, coverage: "100%",
+    features: ["Job escrow", "Accept & deliver", "Dispute system", "Arbiter resolution", "Cancel + refund"],
+    github: "https://github.com/bigguybobby/freelance",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1248,10 +1262,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "89", icon: "📦" },
-  { label: "Tests Passing", value: "2084", icon: "✅" },
-  { label: "Contracts", value: "88", icon: "📜" },
-  { label: "GitHub Repos", value: "91", icon: "🔗" },
+  { label: "Projects", value: "90", icon: "📦" },
+  { label: "Tests Passing", value: "2110", icon: "✅" },
+  { label: "Contracts", value: "89", icon: "📜" },
+  { label: "GitHub Repos", value: "92", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
