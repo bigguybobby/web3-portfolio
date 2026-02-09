@@ -1162,6 +1162,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "TokenBridge",
+    emoji: "🌉",
+    tagline: "Lock-and-Mint Cross-Chain Bridge",
+    grant: "Infrastructure",
+    color: "from-sky-400 to-blue-400",
+    border: "border-sky-500/30 hover:border-sky-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 21, coverage: "100%",
+    features: ["Lock & Mint", "Burn & Unlock", "Multi-relayer", "Bridge fees", "Token management"],
+    github: "https://github.com/bigguybobby/token-bridge",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1178,10 +1192,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "84", icon: "📦" },
-  { label: "Tests Passing", value: "1987", icon: "✅" },
-  { label: "Contracts", value: "83", icon: "📜" },
-  { label: "GitHub Repos", value: "86", icon: "🔗" },
+  { label: "Projects", value: "85", icon: "📦" },
+  { label: "Tests Passing", value: "2008", icon: "✅" },
+  { label: "Contracts", value: "84", icon: "📜" },
+  { label: "GitHub Repos", value: "87", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
