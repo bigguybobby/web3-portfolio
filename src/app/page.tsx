@@ -1064,6 +1064,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "NFTLending",
+    emoji: "🏦",
+    tagline: "Borrow ETH Against NFTs",
+    grant: "DeFi/NFT",
+    color: "from-fuchsia-400 to-pink-400",
+    border: "border-fuchsia-500/30 hover:border-fuchsia-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "100%",
+    features: ["NFT collateral", "LTV limits", "Interest rates", "Repayment", "Liquidation"],
+    github: "https://github.com/bigguybobby/nft-lending",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1080,10 +1094,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "77", icon: "📦" },
-  { label: "Tests Passing", value: "1838", icon: "✅" },
-  { label: "Contracts", value: "76", icon: "📜" },
-  { label: "GitHub Repos", value: "79", icon: "🔗" },
+  { label: "Projects", value: "78", icon: "📦" },
+  { label: "Tests Passing", value: "1860", icon: "✅" },
+  { label: "Contracts", value: "77", icon: "📜" },
+  { label: "GitHub Repos", value: "80", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
