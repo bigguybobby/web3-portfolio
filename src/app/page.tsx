@@ -1092,6 +1092,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "BatchExecutor",
+    emoji: "⚡",
+    tagline: "Atomic Multi-Call Execution",
+    grant: "Infrastructure",
+    color: "from-orange-400 to-red-400",
+    border: "border-orange-500/30 hover:border-orange-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 15, coverage: "100%",
+    features: ["Atomic execute", "Try-execute", "ETH forwarding", "Excess refund", "Access control"],
+    github: "https://github.com/bigguybobby/batch-executor",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1108,10 +1122,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "79", icon: "📦" },
-  { label: "Tests Passing", value: "1886", icon: "✅" },
-  { label: "Contracts", value: "78", icon: "📜" },
-  { label: "GitHub Repos", value: "81", icon: "🔗" },
+  { label: "Projects", value: "80", icon: "📦" },
+  { label: "Tests Passing", value: "1901", icon: "✅" },
+  { label: "Contracts", value: "79", icon: "📜" },
+  { label: "GitHub Repos", value: "82", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
