@@ -1386,6 +1386,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "AirdropClaim",
+    emoji: "🪂",
+    tagline: "Merkle Airdrop with Vesting",
+    grant: "Token Distribution",
+    color: "from-green-400 to-teal-400",
+    border: "border-green-500/30 hover:border-green-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 21, coverage: "100%",
+    features: ["Merkle proofs", "Linear vesting", "Claim deadline", "Clawback", "Pausable"],
+    github: "https://github.com/bigguybobby/airdrop-claim",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1402,10 +1416,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "💯 100", icon: "📦" },
-  { label: "Tests Passing", value: "2290", icon: "✅" },
-  { label: "Contracts", value: "99", icon: "📜" },
-  { label: "GitHub Repos", value: "102", icon: "🔗" },
+  { label: "Projects", value: "101", icon: "📦" },
+  { label: "Tests Passing", value: "2311", icon: "✅" },
+  { label: "Contracts", value: "💯 100", icon: "📜" },
+  { label: "GitHub Repos", value: "103", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
