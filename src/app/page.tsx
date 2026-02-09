@@ -1218,6 +1218,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "GrantVault",
+    emoji: "🎯",
+    tagline: "Milestone-Based Grant Payouts",
+    grant: "Public Goods",
+    color: "from-teal-400 to-cyan-400",
+    border: "border-teal-500/30 hover:border-teal-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 20, coverage: "100%",
+    features: ["Milestone tracking", "Staged payouts", "Cancel + refund", "Multi-milestone", "On-chain accountability"],
+    github: "https://github.com/bigguybobby/grant-vault",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1234,10 +1248,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "88", icon: "📦" },
-  { label: "Tests Passing", value: "2064", icon: "✅" },
-  { label: "Contracts", value: "87", icon: "📜" },
-  { label: "GitHub Repos", value: "90", icon: "🔗" },
+  { label: "Projects", value: "89", icon: "📦" },
+  { label: "Tests Passing", value: "2084", icon: "✅" },
+  { label: "Contracts", value: "88", icon: "📜" },
+  { label: "GitHub Repos", value: "91", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
