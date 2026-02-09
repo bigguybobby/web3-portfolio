@@ -1288,6 +1288,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "KYCRegistry",
+    emoji: "🪪",
+    tagline: "On-Chain Identity Verification",
+    grant: "Identity/Compliance",
+    color: "from-blue-400 to-cyan-400",
+    border: "border-blue-500/30 hover:border-blue-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 21, coverage: "100%",
+    features: ["Verification levels", "Delegated verifiers", "Expiry", "Revocation", "Level checks"],
+    github: "https://github.com/bigguybobby/kyc-registry",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1304,10 +1318,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "93", icon: "📦" },
-  { label: "Tests Passing", value: "2164", icon: "✅" },
-  { label: "Contracts", value: "92", icon: "📜" },
-  { label: "GitHub Repos", value: "95", icon: "🔗" },
+  { label: "Projects", value: "94", icon: "📦" },
+  { label: "Tests Passing", value: "2185", icon: "✅" },
+  { label: "Contracts", value: "93", icon: "📜" },
+  { label: "GitHub Repos", value: "96", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
