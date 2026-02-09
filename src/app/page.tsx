@@ -1330,6 +1330,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "Reputation",
+    emoji: "⭐",
+    tagline: "On-Chain Reputation Scoring",
+    grant: "Identity/Social",
+    color: "from-amber-400 to-yellow-400",
+    border: "border-amber-500/30 hover:border-amber-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 23, coverage: "100%",
+    features: ["Endorsements", "Penalties", "Score bounds", "Judge system", "Threshold gates"],
+    github: "https://github.com/bigguybobby/reputation",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1346,10 +1360,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "96", icon: "📦" },
-  { label: "Tests Passing", value: "2228", icon: "✅" },
-  { label: "Contracts", value: "95", icon: "📜" },
-  { label: "GitHub Repos", value: "98", icon: "🔗" },
+  { label: "Projects", value: "97", icon: "📦" },
+  { label: "Tests Passing", value: "2251", icon: "✅" },
+  { label: "Contracts", value: "96", icon: "📜" },
+  { label: "GitHub Repos", value: "99", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
