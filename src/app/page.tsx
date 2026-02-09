@@ -1316,6 +1316,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "FlashLiquidator",
+    emoji: "⚡",
+    tagline: "Atomic Liquidation Engine",
+    grant: "DeFi/Liquidation",
+    color: "from-yellow-400 to-red-400",
+    border: "border-yellow-500/30 hover:border-yellow-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 22, coverage: "97%",
+    features: ["Collateralized positions", "Health factors", "Liquidation bonus", "Oracle prices", "Atomic execution"],
+    github: "https://github.com/bigguybobby/flash-liquidator",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1332,10 +1346,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "95", icon: "📦" },
-  { label: "Tests Passing", value: "2206", icon: "✅" },
-  { label: "Contracts", value: "94", icon: "📜" },
-  { label: "GitHub Repos", value: "97", icon: "🔗" },
+  { label: "Projects", value: "96", icon: "📦" },
+  { label: "Tests Passing", value: "2228", icon: "✅" },
+  { label: "Contracts", value: "95", icon: "📜" },
+  { label: "GitHub Repos", value: "98", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
