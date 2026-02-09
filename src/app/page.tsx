@@ -1372,6 +1372,20 @@ const projects = [
     tech: ["Solidity", "Foundry"],
   },
   {
+    name: "SafeWallet",
+    emoji: "🏦",
+    tagline: "PROJECT #100 🎉 Smart Wallet with Guardians",
+    grant: "Account Abstraction",
+    color: "from-yellow-400 to-amber-400",
+    border: "border-yellow-500/30 hover:border-yellow-500/60",
+    contract: "Ready to deploy",
+    chain: "Any EVM",
+    tests: 32, coverage: "100%",
+    features: ["Daily limits", "Guardian system", "Social recovery", "Emergency lock", "Whitelisting", "Threshold voting"],
+    github: "https://github.com/bigguybobby/safe-wallet",
+    tech: ["Solidity", "Foundry"],
+  },
+  {
     name: "SecurityGuard",
     emoji: "🤖",
     tagline: "AI Security Agent for Smart Contracts",
@@ -1388,10 +1402,10 @@ const projects = [
 ];
 
 const stats = [
-  { label: "Projects", value: "99", icon: "📦" },
-  { label: "Tests Passing", value: "2258", icon: "✅" },
-  { label: "Contracts", value: "98", icon: "📜" },
-  { label: "GitHub Repos", value: "101", icon: "🔗" },
+  { label: "Projects", value: "💯 100", icon: "📦" },
+  { label: "Tests Passing", value: "2290", icon: "✅" },
+  { label: "Contracts", value: "99", icon: "📜" },
+  { label: "GitHub Repos", value: "102", icon: "🔗" },
   { label: "Frontends", value: "7", icon: "🖥️" },
   { label: "Grant Targets", value: "$1.5M+", icon: "💰" },
 ];
